@@ -5,11 +5,10 @@ A simple command-line based Python application to track your expenses, categoriz
 ### 📂 Project Structure
 
 expense_tracker/
-│
 
 ├── expense_tracker.py    # Defines the Expense class
 
-├── expence.py            # Main application logic (code you provided)
+├── expence.py            # Main application logic
 
 ├── expenses.csv          # CSV file where expense data is stored
 
