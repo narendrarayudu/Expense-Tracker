@@ -47,7 +47,7 @@ Rent
 
 Travel
 
-# expense.py
+### expense.py
 
 class Expense:
 
@@ -66,7 +66,7 @@ class Expense:
 
 Follow the prompts to input your expenses.
 
-# 📊 Output Sample
+### 📊 Output Sample
 
 Expense Tracker Running Succesfully
 
@@ -110,13 +110,13 @@ Remaining days in this month: 17
 
 Budget Per Day: $ 57.65
 
-# Notes
+### Notes
 
 Expenses are appended to expenses.csv – so keep it clean or clear it if needed.
 
 Income is currently hardcoded (e.g., $1000). You can modify it in the script or enhance by prompting the user for dynamic input.
 
-# 📌 Future Improvements
+### 📌 Future Improvements
 
 Add date/time to each expense
 
@@ -128,4 +128,5 @@ GUI or Web version (Flask or Django)
 
 ### 🧑‍💻 Author
 Narendra Rayudu
+
 GitHub: narendrarayudu
