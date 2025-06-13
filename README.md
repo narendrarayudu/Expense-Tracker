@@ -1,17 +1,21 @@
-# 💸 Expense Tracker
+## 💸 Expense Tracker
 
 A simple command-line based Python application to track your expenses, categorize them, and give you daily/monthly budget insights.
 
-# 📂 Project Structure
+### 📂 Project Structure
 
 expense_tracker/
 │
+
 ├── expense_tracker.py    # Defines the Expense class
+
 ├── expence.py            # Main application logic (code you provided)
+
 ├── expenses.csv          # CSV file where expense data is stored
+
 └── README.md             # Project documentation
 
-# 🚀 Features
+### 🚀 Features
 Prompt user to input:
 
 Expense name
@@ -31,7 +35,7 @@ Remaining days in the month
 
 Daily spending budget for the rest of the month
 
-# 🧾 Categories Supported
+### 🧾 Categories Supported
 
 Salary
 Business
@@ -40,17 +44,17 @@ Rent
 Travel
 
 # expense.py
+
 class Expense:
-    def __init__(self, name, amount, category):
-        self.name = name
-        self.amount = amount
-        self.category = category
+  def __init__(self,name,category,amount)->None:
+    self.name=name
+    self.category=category
+    self.amount=amount
+  
+  def __repr__(self):
+    return f"<Expense: {self.name},{self.category}, ${self.amount:.2f}>""
+        
 
-    def __repr__(self):
-        return f"<Expense name={self.name}, amount={self.amount}, category={self.category}>"
-Run the script:
-
-python main.py
 Follow the prompts to input your expenses.
 
 # 📊 Output Sample
@@ -78,6 +82,7 @@ Remaining days in this month: 17
 Budget Per Day: $ 57.65
 
 # Notes
+
 Expenses are appended to expenses.csv – so keep it clean or clear it if needed.
 
 Income is currently hardcoded (e.g., $1000). You can modify it in the script or enhance by prompting the user for dynamic input.
