@@ -19,8 +19,11 @@ expense_tracker/
 Prompt user to input:
 
 Expense name
+
 Amount
+
 Category (e.g., Food, Rent, Travel, etc.)
+
 Save expense data to a .csv file
 
 Categorize expenses and summarize by:
