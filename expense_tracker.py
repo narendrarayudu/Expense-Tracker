@@ -8,9 +8,9 @@ def main():
   Income=1000
 
   expenses_filepath="expenses.csv"
- # expense= get_user_expense()
+  expense= get_user_expense()
   
-  #save_expense_to_file(expense,expenses_filepath)
+  save_expense_to_file(expense,expenses_filepath)
   summarize_expense(expenses_filepath,Income)
   
 
